@@ -8,6 +8,7 @@
 #include <kernel/pm.h>
 #include <mm/core_memprot.h>
 #include <string.h>
+#include <malloc.h>
 #include <types_ext.h>
 
 #define PM_FLAG_SUSPENDED	BIT(0)

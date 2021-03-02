@@ -8,7 +8,6 @@
 
 #include <inttypes.h>
 #include <mm/core_memprot.h>
-#include <mm/core_mmu.h>
 #include <optee_msg.h>
 
 /*

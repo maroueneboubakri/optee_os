@@ -6,7 +6,7 @@
 
 #include <stdbool.h>
 #include <stdint.h>
-#include <mm/core_mmu.h>
+#include <mm/core_memprot.h>
 
 #define HYP_CLNT_ID 0
 

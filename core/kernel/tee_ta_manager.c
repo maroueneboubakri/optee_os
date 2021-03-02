@@ -18,7 +18,6 @@
 #include <kernel/user_mode_ctx.h>
 #include <kernel/user_ta.h>
 #include <mm/core_memprot.h>
-#include <mm/core_mmu.h>
 #include <mm/mobj.h>
 #include <mm/vm.h>
 #include <stdio.h>

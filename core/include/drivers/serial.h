@@ -9,7 +9,6 @@
 #include <stdbool.h>
 #include <types_ext.h>
 #include <mm/core_memprot.h>
-#include <mm/core_mmu.h>
 
 struct serial_chip {
 	const struct serial_ops *ops;

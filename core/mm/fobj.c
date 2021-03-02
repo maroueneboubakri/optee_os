@@ -9,7 +9,7 @@
 #include <kernel/boot.h>
 #include <kernel/panic.h>
 #include <mm/core_memprot.h>
-#include <mm/core_mmu.h>
+//#include <mm/core_mmu.h>
 #include <mm/fobj.h>
 #include <mm/tee_mm.h>
 #include <stdlib.h>
