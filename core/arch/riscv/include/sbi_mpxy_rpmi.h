@@ -136,6 +136,10 @@ sbi_mpxy_rpmi_init_send_without_response(struct sbi_mpxy_rpmi_message *message,
 	message->error = 0;
 }
 
+void sbi_mpxy_rpmi_probe_channels(void);
+int sbi_mpxy_rpmi_read_attributes(struct sbi_mpxy_rpmi_channel *channel);
+int sbi_mpxy_rpmi_send_data(struct sbi_mpxy_rpmi_channel *channel, void *data);
+
 #endif /*__ASSEMBLER__*/
 #endif /*defined(CFG_RISCV_SBI_MPXY_RPMI)*/
 #endif /*__SBI_MPXY_RPMI_H*/
